@@ -11,8 +11,8 @@
 * ssc install bacondecomp
 
 *-> 1. **Load the data**
-  use "https://github.com/Mixtape-Sessions/Advanced-DID/raw/main/Exercises/Data/ehec_data.dta", clear
-
+  use "C:/Users/juanc/OneDrive/Documents/GitHub/Advanced-DID/Exercises/Data/ehec_data.dta", clear
+  
 *-> 2. **Estimate the $ATT(g,t)$ using Callaway and Sant'Anna's estimator**
   * I've been to the year 3000...
   replace yexp2 = 3000 if yexp2 == .
